@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Under Construction</title>
+  <link rel="icon" href="icons/ico.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <a href="#" target="_blank" class="logo">t i c k e t s</a>
+    <nav>
+      <ul>
+        <li><a href="../" target="_blank">H o m e</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <img src="images/curve.png" class="wave" alt="curve-img">
+    <div class="contentBx">
+      <h2>Coming Soon</h2><br>
+      <p>Hello, this page is under developement.<br /><br>Sorry for your inconvenience. </p>
+      <div class="countdown">
+        <div class="time">
+          <div id="day"></div><span>Days</span>
+        </div>
+        <div class="time">
+          <div id="hour"></div> <span>Hours</span>
+        </div>
+        <div class="time">
+          <div id="minute"></div> <span>Minutes</span>
+        </div>
+        <div class="time">
+          <div id="second"></div> <span>Second</span>
+        </div>
+      </div>
+      <a href="#" onclick="toggle();">Notify Me!</a>
+    </div>
+    <div class="imgBx">
+      <img src="images/man.png" alt="man-image">
+    </div>
+    <ul class="sci">
+      <li><a href="https://www.facebook.com/tic.india.31"><img src="images/facebook.png" alt=""> </a> </li>
+      <li><a href="https://twitter.com/Tickets_india"><img src="images/twitter.png" alt=""> </a> </li>
+      <li><a href="https://www.instagram.com/tickets__in/"><img src="images/instagram.png" alt=""> </a> </li>
+    </ul>
+  </section>
+
+  <div class="newsletter">
+    <h2>Stay Tuned</h2>
+    <p>Get Notified at launch</p>
+    <div class="inputBox">
+      <form>
+        <input type="email" name="" required="" placeholder="Enter Email Address" value="">
+        <input type="submit" name="" value="submit">
+      </form>
+    </div>
+    <img src="images/close.png" class="close" onclick="toggle();" alt="close-img">
+  </div>
+
+  <script src="js/index.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    function toggle() {
+      var newsletter = document.querySelector('.newsletter');
+      newsletter.classList.toggle('active')
+    }
+  </script>
+</body>
+
+</html>
